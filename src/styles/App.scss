@@ -1,0 +1,161 @@
+$backgroundColor: white;
+$borderColor: rgb(28, 33, 98);
+$primaryColor: black;
+$accentColor:  black;
+$textColor: rgb(4, 4, 46);
+$subHeadingtextColor: rgb(4, 45, 158);
+
+$headingFont: 3em;
+$subheadingFontsize: 2em;
+$pargraphFontSize: 1.1em;
+$mainViewPortWidth: 88vw;
+@mixin grida {
+    display: grid;
+    grid-gap: 2vmax;
+    grid-template-columns: 50% 50%;
+}
+
+@mixin darkpatch {
+    background-color: $primaryColor;
+    height: 30vh;
+    clip-path: polygon(0 0,  100% 0, 100% 85%, 85% 85%, 75% 100%,    75% 85%,    0 85%);
+    display: inline-block;
+    position: relative;
+    align-items: center;
+    padding: 1vmax;
+}
+
+@mixin deeds_grid_mixin  {
+    display: grid;
+    grid-template-columns:15% 85%; 
+}
+
+*{
+    box-sizing: border-box;
+    padding:0;
+    margin:0;
+    font-family: -apple-system, BlinkMacSystemFont, 'Segoe UI', Roboto, Oxygen, Ubuntu, Cantarell, 'Open Sans', 'Helvetica Neue', sans-serif
+}
+
+
+h1,h3,h4,h5,p{ color: $textColor }
+h1{font-size: $headingFont; color: rgba(4, 4, 46, 0.733) }
+h2{font-size: $subheadingFontsize;  color: $subHeadingtextColor}
+p{line-height: 1.5em; font-weight: 400;
+    font-size: $pargraphFontSize}
+
+.container{
+    width: $mainViewPortWidth;
+    // margin: 0 auto;
+
+    @include grida;
+    img{
+        width: 20vw;
+        z-index: 1;
+        position: absolute;
+        top:10vh;
+        left:25vw;
+        border: 0.5vmax $backgroundColor solid;
+        outline: 0.5vmax $primaryColor solid;
+    }
+        
+}
+
+
+.higher{
+    @include grida;
+    color: rgba(55, 55, 243, 0.705);
+
+    .fonty{ align-self: flex-end; padding-bottom: 2vh}
+    .darkpatch{
+@include darkpatch();
+      
+         h3{ display: inline-block;
+            position: absolute;
+            top: 10vh;
+            left:-1vw;
+            transform: rotate(90deg) };
+            font-size: 1.4vmax;
+    }
+}
+
+.details{
+    width: $mainViewPortWidth;
+    display: grid;
+    grid-gap: 3vmax;
+    grid-template-columns: 30% 70%;
+    margin: 2.5em 0;
+}
+
+.deed_section {
+    border-left: 2px $borderColor solid;
+    padding-left: 3vw;
+    padding-bottom: 2.5vh;
+    // border: 3px red solid;
+
+    .deeds_title {
+        @include deeds_grid_mixin();
+        border-bottom: 2px $borderColor solid;
+        padding: 1.5vh 0;
+        margin-bottom: 2vh;
+        align-items: center;
+        img{height: 50px;}
+        h2{margin-left: 20px}
+    }
+    .deeds_details{
+        @include deeds_grid_mixin();
+        padding: 1vh 0;
+        h3,h4{
+          padding-bottom: .5em;
+        }
+        ul{
+            padding:0 20px;
+        }
+    }
+
+}
+
+.noLeftBorder{
+    border-left: none;
+    padding-left:0;
+}
+
+.hobbies{
+     ul{
+         display: flex;
+         li{
+             margin:0 20px;
+         }
+     }
+}
+
+.progressAttribs{
+    h5{margin: 4px 0;}
+    display: grid;
+    grid-template-columns: 60% 40%;
+    padding: 5px 0;
+    .progressBar{
+        display: grid;
+        grid-template-columns: repeat(5, 1fr);
+
+        .progressBox{
+            background-color: #ddd;
+            border-radius: 8px;
+            width: 20px;
+            height: 20px;
+        }
+        .Box1,.Box2,.Box3,.Box4,.Box5{
+            background-color: $borderColor;
+            margin-top: -20px;
+        }
+    }
+}
+
+.invertdHigh{
+    transform: rotate(180deg);
+    height: 150px;
+}
+
+.wholePage{
+    padding: 4vmax;
+}
