@@ -85,7 +85,7 @@ const Mydata = {
 			"time_spent": "2013 - 2014",
 			"achievements": [
 				`i got certification in advanced Secondary School Learning with a fair aggregate`,
-				"Studied Geography, Enterprenuership, Computer and information Technology, Fine art and many other suplementary credits of learning",
+				"Studied Geography, Enterprenuership, Computer and information Technology, Fine art and many other suplementary credits",
 			]
 		}
 	],
@@ -93,7 +93,7 @@ const Mydata = {
 	
 	"certification": [
 		{
-		"time_spent": "2013 - 2023",
+		"time_spent": "2013 - 2013",
 		"certification_name": "Certificate in Computer Applications(CCA), Makerere University"
 	},
 	{
