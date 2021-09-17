@@ -131,7 +131,7 @@ const Mydata = {
 ]},
 },
 
-skills: [`I'm a competent indidvidual with great "get the work done" skills`,
+skills: [`I'm a competent individual with great "get the work done" skills`,
 // "From my experience, i also gathered expertise in marketing and sales",
  "Great at engaging and learning new stuff",
  "I'm adaptive to new working environment with a quick learning ability naturally acquired",
