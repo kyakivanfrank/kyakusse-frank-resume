@@ -110,8 +110,8 @@ const Mydata = {
 
 "personal_info":{
 	"obj1":[ 
-	{"attribute":"Gender & Age","item": "Male, 26 years"},
-	{"attribute":"Address","item": "Kawempe Jjinja karoli, Kampala Uganda"},
+	{"attribute":"Gender & Age","item": "Male, 27 years"},
+	{"attribute":"Address","item": "Nansana, wakiso Uganda"},
 	{"attribute":"Phone","item": " whatsapp@ 0708481316"},
 	{"attribute":"E-mail","item": "kyakivanfrank@gmail.com"},
 	
