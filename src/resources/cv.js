@@ -10,24 +10,28 @@ const Mydata = {
 	
 	"personal_statement": 
 
-	// [
-	// 	`I'm professionally a Web designer and technology enthusiast with great passion for what i do.
-	// Through aspects like creativity, design and building logic.
-	// `,
-	// `I'm also passionate about pushing products to consumers and this gives me a touch in marketing, i do online and social media marketing
-	// `,
-	// `I have a great eye for ideating and seeing design and this help strengthen my workability.`,
-	// `I hold a Bachelors in computer applications degree acquired from a well reputated university.`],
 
-[
-			`Professionally a web developer and software tech enthusiast with great passion for what i do.
-		Through aspects like creativity, design and building logic. I come up with user-interactive web based solutions and models that give a rather fulfilling experience.
-		`,
-		`With practice and familiarity of the technologies in the field, I have well trusted abilities in working and finalizing given assignments.
-		`,
-		`I have a great eye for ideating and seeing design and this helps strengthen my workability.`,
+[ As am inclined more towards Software(web) development, am generally a technology enthusiast.
+I have a great passion for coming up with solutions to problems relating to communication, comprehending and writing logic for the software front-end and back-end with a touch of creative user-interface design.
+
+I have a great hold of my capabilities gained from both in-field and personal practice therefore am able to finalize upto 90% of what I put hands on.
+
+I love collaborating among teams and this has built more confidence in me and sharpened my learning abilities
+
+I'm also institutionally well trained hence awarded with a bachelor's in computer applications degree from a reputable University ],
+
+              
+
+
+
+//[`Professionally a web developer and software tech enthusiast with great passion for what i do.
+		//Through aspects like creativity, design and building logic. I come up with user-interactive web based solutions and models that give a rather fulfilling experience.
+		//`,
+		//`With practice and familiarity of the technologies in the field, I have well trusted abilities in working and finalizing given assignments.
+		//`,
+		//`I have a great eye for ideating and seeing design and this helps strengthen my workability.`,
 	
-		`I hold a Bachelors in computer applications degree acquired from a well reputated university in my area.`],
+		//`I hold a Bachelors in computer applications degree acquired from a well reputated university in my area.`],
 
 
 
