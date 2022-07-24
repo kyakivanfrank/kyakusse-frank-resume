@@ -25,18 +25,18 @@ const Mydata = {
 	experience: [
 	{
 			"job_title":"Graphics designer/ Digital Marketeer",
-			"job_location": "barrels Blended scotch whisky company",
-			"time_spent": "2022 - to Date",
+			"job_location": "9 barrels Blended scotch whisky company",
+			"time_spent": "2022 - To date",
 			"duties": [
-				"Designing product promotion and advertisement documents like posters, price lists brochures and nore",
+				"Designing product promotion/ advertisement documents i.e posters, price lists, brochures etc.",
 				"social media advertisement and digital marketing",
 				"communications, optimsizing the connection between our sales team to the clients thus increasing sales",
 			]
 		},
 		{
-			"job_title":"Graphics designer, web developer",
+			"job_title":"Graphics designer/ web developer",
 			"job_location": "Livewire Uganda/ Cadd Centre/ cyber school tech solutions",
-			"time_spent": "2019 -2020",
+			"time_spent": "2019 - 2021",
 			"duties": [
 				"Designing web interfaces for websites",
 				"Designed graphics for advertisement and marketing for our products team",
@@ -46,7 +46,7 @@ const Mydata = {
 		{
 			"job_title":"Digital marketeer",
 			"job_location": "Premier distilleries Uganda Limited, Kampala",
-			"time_spent": "2019 -2019",
+			"time_spent": "2019 - 2019",
 			"duties": [
 				"Companies representative for products like 9 barrels & old glen scotch",
 				"inter-communication between clients and company for product sales",
@@ -56,7 +56,7 @@ const Mydata = {
 		{
 			"job_title":"Data Entrant",
 			"job_location": "Career College Abroad,Ludhiana India",
-			"time_spent": "2016 -2017",
+			"time_spent": "2016 - 2017",
 			"duties": [
 				"Creating and editing students assignment for printing",
 				"Was partly a tutor and interacted with students for english lessons",
@@ -120,7 +120,7 @@ const Mydata = {
 	{"http":"https://github.com/kyakivanfrank/","to":"GitHub"}]},
 },
 skills: [
-"Problem solving, I developed away of looking at challenges as just levels for one to overcome and I'd work my way out to another level",
+"Problem solving, I developed a way of looking at challenges as just levels for me to overcome and I'd work my way out to another level through all ways of trial.",
 "Team work, I love socializing. I believe that two heads are better than one and i also know that a lone walker would reach fast but as a group you'd reach farthest hence being able to complete bigger achievements",
 "I'm a quick learner, I love learning new things and in this i devised in myself a working approach to anything am subjected to hence adding that to my repertoire, this gives me versatility at any Technology"],
 
