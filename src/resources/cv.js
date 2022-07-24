@@ -1,38 +1,38 @@
-
 import profile_pic from "../resources/profileimage.jpg"
+
+const currentYear = new Date().getFullYear()
+const myage = currentYear - 1994
 
 
 const Mydata = {
-	"myName": "kyakusse frank ivan",
-	// "position": "Digital marketeer & graphic designer",
+	"myName": "Frank Ivan Kyakusse",
 	"position": "Front-end web developer",
 	"profile_pic": profile_pic,
 	
-	"personal_statement": 
+	"personal_statement": [`As am inclined more towards software(web development), Am generally a Technology enthusiast.`,`I have a great passion for coming up with solutions to problems relating to communication, comprehending and writing logic for the software front-end and back-end with a touch of creative user-interface design.`
+	,`I have a great hold of my capabilities gained from both in-field and personal practice therefore am able to finalize upto 90% of what I put hands on.`,`
+	I love collaborating among teams and this has built more confidence in me and sharpened my learning abilities`,`
+	I'm also institutionally well trained hence awarded with a bachelor's in computer applications degree from a reputable University`],
 
-	// [
-	// 	`I'm professionally a Web designer and technology enthusiast with great passion for what i do.
-	// Through aspects like creativity, design and building logic.
-	// `,
-	// `I'm also passionate about pushing products to consumers and this gives me a touch in marketing, i do online and social media marketing
-	// `,
-	// `I have a great eye for ideating and seeing design and this help strengthen my workability.`,
-	// `I hold a Bachelors in computer applications degree acquired from a well reputated university.`],
-
-[
-			`Professionally a web developer and software tech enthusiast with great passion for what i do.
-		Through aspects like creativity, design and building logic. I come up with user-interactive web based solutions and models that give a rather fulfilling experience.
-		`,
-		`With practice and familiarity of the technologies in the field, I have well trusted abilities in working and finalizing given assignments.
-		`,
-		`I have a great eye for ideating and seeing design and this helps strengthen my workability.`,
+// [`Professionally a web developer and software tech enthusiast with great passion for what i do.
+		// Through aspects like creativity, design and building logic. I come up with user-interactive web based solutions and models that give a rather fulfilling experience.
+		// `,
+		// `With practice and familiarity of the technologies in the field, I have well trusted abilities in working and finalizing given assignments.
+		// `,
+		// `I have a great eye for ideating and seeing design and this helps strengthen my workability.`,
 	
-		`I hold a Bachelors in computer applications degree acquired from a well reputated university in my area.`],
-
-
-
-
+		// // `I hold a Bachelors in computer applications degree acquired from a well reputated university in my area.`],
 	experience: [
+	{
+			"job_title":"Graphics designer/ Digital Marketeer",
+			"job_location": "barrels Blended scotch whisky company",
+			"time_spent": "2022 - to Date",
+			"duties": [
+				"Designing product promotion and advertisement documents like posters, price lists brochures and nore",
+				"social media advertisement and digital marketing",
+				"communications, optimsizing the connection between our sales team to the clients thus increasing sales",
+			]
+		},
 		{
 			"job_title":"Graphics designer, web developer",
 			"job_location": "Livewire Uganda/ Cadd Centre/ cyber school tech solutions",
@@ -84,7 +84,7 @@ const Mydata = {
 			"study_location": "Nansana Education Centre (NEC), Kampala Uganda",
 			"time_spent": "2013 - 2014",
 			"achievements": [
-				`i got certification in advanced Secondary School Learning with a fair aggregate`,
+				`i got certification in Advanced Secondary School Learning with a Good aggregate`,
 				"Studied Geography, Enterprenuership, Computer and information Technology, Fine art and many other suplementary credits",
 			]
 		}
@@ -110,42 +110,27 @@ const Mydata = {
 
 "personal_info":{
 	"obj1":[ 
-	{"attribute":"Gender & Age","item": "Male, 26 years"},
-	{"attribute":"Address","item": "Kawempe Jjinja karoli, Kampala Uganda"},
+	{"attribute":"Gender & Age","item": `Male, ${myage} years`},
+	{"attribute":"Address","item": "Kasubi Kampala, Uganda"},
 	{"attribute":"Phone","item": " whatsapp@ 0708481316"},
-	{"attribute":"E-mail","item": "kyakivanfrank@gmail.com"},
+	{"attribute":"E-mail","item": "kyakivanfrank@gmail.com"}
 	
 ], "obj2": {"attribute":"Links", "item": [
-	{
-		"http":"http://frank-portifolio.herokuapp.com/",
-		"to":"Portfolio"
-	},{
-		"http":"http://www.linkedin.com/in/kyakusse-frank-ivan-16a7aa101/",
-		"to":"LinkedIn"
-	},
-	{
-		"http":"https://github.com/kyakivanfrank/",
-		"to":"GitHub"
-	},
-
-]},
+	{"http":"http://www.linkedin.com/in/kyakusse-frank-ivan-16a7aa101/","to":"LinkedIn"},
+	{"http":"https://github.com/kyakivanfrank/","to":"GitHub"}]},
 },
-
-skills: [`I'm a competent individual with great "get the work done" skills`,
-// "From my experience, i also gathered expertise in marketing and sales",
- "Great at engaging and learning new stuff",
- "I'm adaptive to new working environment with a quick learning ability naturally acquired",
- "I'm a social person, friendly and interactive with good interpersonal communication skills"],
+skills: [
+"Problem solving, I developed away of looking at challenges as just levels for one to overcome and I'd work my way out to another level",
+"Team work, I love socializing. I believe that two heads are better than one and i also know that a lone walker would reach fast but as a group you'd reach farthest hence being able to complete bigger achievements",
+"I'm a quick learner, I love learning new things and in this i devised in myself a working approach to anything am subjected to hence adding that to my repertoire, this gives me versatility at any Technology"],
 
 
 "TechnicalExpertise":{
 	"programming_skills": [
 		{"language":"javaScript",  "level": 3 }, // level is any integer <= 5
 		{"language":"React",  "level": 4 }, // level is any integer <= 5
-		{"language":"Html & css",  "level": 4 }, // level is any integer <= 5
-	],
-	"otherSkills": ["adobe suite", "video editing", "graphics designing"]}
-,
+		{"language":"UI design",  "level": 4 }, // level is any integer <= 5
+	], "otherSkills": ["adobe suite", "video editing", "graphics designing"]},
 	
 	"languages_spoken": [
 		{"language":"English",  "level": 4 }, // level is any integer <= 5
