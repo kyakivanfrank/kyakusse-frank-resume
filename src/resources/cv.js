@@ -18,7 +18,7 @@ I have a great passion for coming up with solutions to problems relating to comm
 
 'I love collaborating among teams and this has built more confidence in me and sharpened my learning abilities',
 
-'Im also institutionally well trained hence awarded with a bachelor's in computer applications degree from a reputable University'],
+'Im also institutionally well trained hence awarded with a bachelors in computer applications degree from a reputable University'],
 
 
 //[`Professionally a web developer and software tech enthusiast with great passion for what i do.
