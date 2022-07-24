@@ -11,17 +11,14 @@ const Mydata = {
 	"personal_statement": 
 
 
-[ As am inclined more towards Software(web) development, am generally a technology enthusiast.
-I have a great passion for coming up with solutions to problems relating to communication, comprehending and writing logic for the software front-end and back-end with a touch of creative user-interface design.
+[ 'As am inclined more towards Software(web) development, am generally a technology enthusiast.
+I have a great passion for coming up with solutions to problems relating to communication, comprehending and writing logic for the software front-end and back-end with a touch of creative user-interface design.',
 
-I have a great hold of my capabilities gained from both in-field and personal practice therefore am able to finalize upto 90% of what I put hands on.
+'I have a great hold of my capabilities gained from both in-field and personal practice therefore am able to finalize upto 90% of what I put hands on.',
 
-I love collaborating among teams and this has built more confidence in me and sharpened my learning abilities
+'I love collaborating among teams and this has built more confidence in me and sharpened my learning abilities',
 
-I'm also institutionally well trained hence awarded with a bachelor's in computer applications degree from a reputable University ],
-
-              
-
+'I'm also institutionally well trained hence awarded with a bachelor's in computer applications degree from a reputable University'],
 
 
 //[`Professionally a web developer and software tech enthusiast with great passion for what i do.
