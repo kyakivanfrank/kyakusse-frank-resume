@@ -132,11 +132,11 @@ I have a great passion for coming up with solutions to problems relating to comm
 ]},
 },
 
-skills: [`I'm a competent individual with great "get the work done" skills`,
-// "From my experience, i also gathered expertise in marketing and sales",
- "Great at engaging and learning new stuff",
- "I'm adaptive to new working environment with a quick learning ability naturally acquired",
- "I'm a social person, friendly and interactive with good interpersonal communication skills"],
+skills:[ "Problem solving, 
+I developed away of looking at challenges as just levels to overcome and I'd work any way out to another level", "Team work,
+I love socializing, I believe that two heads are better than a head and also know that a lone walker would reach fast but walking as group you'd reach you farthest hence completing bigger achievements.
+","Quick learner, I love learning new things and believe that any new workspace could add something to my repertoire and I'd also be versatile given any technology
+"],
 
 
 "TechnicalExpertise":{
